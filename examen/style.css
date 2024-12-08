@@ -1,0 +1,45 @@
+/* Comentario de varias líneas
+   en el documento CSS 
+   para el ejercicio */
+
+   body {
+    background-color: #F5F5F5;
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#contenedor {
+    width: 770px;
+    margin: 0 auto; /* Centrado horizontal */
+    background-color: white;
+}
+
+#cabecera {
+    background-color: purple;
+    height: 50px;
+}
+
+#menu {
+    background-color: green;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+#contenido {
+    background-color: gray;
+    height: 500px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#pie {
+    background-color: orange;
+    height: 30px;
+    padding: 0;
+}

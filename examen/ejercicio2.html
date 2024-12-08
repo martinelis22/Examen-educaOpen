@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio de Tablas</title>
+</head>
+<body>
+    <!-- Tabla básica -->
+    <table border="1">
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+        </tr>
+        <tr>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+        </tr>
+    </table>
+    <br>
+
+    <!-- Tabla avanzada -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Celda combinada</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Celda con múltiples filas</td>
+                <td>Contenido</td>
+            </tr>
+            <tr>
+                <td>Otra fila</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- Tabla anidada -->
+    <table border="1">
+        <tr>
+            <td>Tabla exterior</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Tabla interior</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- Formulario básico -->
+    <form action="mailto:ejemplo@correo.com" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" tabindex="1"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" tabindex="2"><br>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" tabindex="3"></textarea><br>
+        
+        <input type="submit" value="Enviar" tabindex="4">
+    </form>
+    <br><br>
+
+    <!-- Formulario con fieldset y legend -->
+    <form action="mailto:ejemplo@correo.com" method="post">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre-completo">Nombre:</label>
+            <input type="text" id="nombre-completo" name="nombre-completo" tabindex="1"><br>
+            
+            <label for="correo">Email:</label>
+            <input type="email" id="correo" name="correo" tabindex="2"><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Mensaje</legend>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" tabindex="3"><br>
+            
+            <label for="mensaje-texto">Mensaje:</label>
+            <textarea id="mensaje-texto" name="mensaje-texto" tabindex="4"></textarea>
+        </fieldset>
+        
+        <input type="submit" value="Enviar" tabindex="5">
+    </form>
+</body>
+</html>
