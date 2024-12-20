@@ -1,13 +1,11 @@
-/* Comentario de varias líneas
-   en el documento CSS 
-   para el ejercicio */
-
-   body {
+body {
     background-color: #F5F5F5;
     font-family: Verdana, sans-serif;
     color: white;
     font-size: 15px;
     text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
 #contenedor {
@@ -19,21 +17,27 @@
 #cabecera {
     background-color: purple;
     height: 50px;
+    line-height: 50px; /* Para centrar verticalmente el texto */
 }
 
 #menu {
     background-color: green;
+    padding: 10px;
 }
 
 #menu ul {
     list-style: none;
     display: flex;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 20px; /* Espacio entre elementos del menú */
 }
 
 #contenido {
     background-color: gray;
-    height: 500px;
+    min-height: 500px;
     padding: 10px;
     text-align: justify;
 }
@@ -41,5 +45,5 @@
 #pie {
     background-color: orange;
     height: 30px;
-    padding: 0;
+    line-height: 30px; /* Para centrar verticalmente el texto */
 }

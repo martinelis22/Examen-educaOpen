@@ -1,0 +1,39 @@
+HTML Y CSS
+
+<img src="enlazar a fotos">   alt="comentario que sale en el lugar de que no salga la foto
+
+<a href="enlazar paginas web"</a>
+
+Para que el estilo de la página se vea similar en un dispositivo móvil al de una computadora de escritorio o portátil, debes agregar un elemento meta con un atributo de contenido especial. 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+<link rel="stylesheet" href="css/flex.css"> esto es para enlazar html con css
+
+strong= pone en negrita el texto
+
+figcaption = pone un pequenyo texto debajo de la foto
+
+<em> pone en discursiva </em>
+
+[<input type="text"> = campo "casilla" para meter texto
+
+El atributo placeholder muestra un texto de ejemplo dentro del campo de entrada que desaparece cuando el usuario empieza a escribir
+
+<input type="text" name="catphotourl" placeholder="cat photo URL"> poner dentro required para que el usuario no envie sin la informacion]
+
+<button>Submit</button>= hace botton con el texto que quieras "submit" dentro.
+
+cerear radio button <label><input id="indoor" type="radio"> Indoor</label>
+                    <label><input id= "outdoor" type="radio"> Outdoor</label
+
+
+El elemento legend se coloca justo después de abrir el fieldset y antes de los label con los botones de radio. Esto crea un título o descripción para el grupo de botones de radio, ayudando a los usuarios a entender qué información deben seleccionar.
+
+<fieldset>
+  <legend>Is your cat an indoor or outdoor cat?</legend>
+  <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+</fieldset>
+
+<li><a href="https://keepcoding.io" target="blank" rel="noreferrer noopener">Keep coding</a></li>  {rel="noreferrer noopener"} esto es para no dejar  registro desde la pagina donde tenemos el enlace
+

@@ -1,0 +1,7 @@
+java script cositas
+
+
+push anyadir al final
+pop eliminar el ultimo
+shift eliminar el primero
+unshift agregar al principio

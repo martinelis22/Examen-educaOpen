@@ -1,0 +1,90 @@
+power shell
+
+como abro una carpeta dentro de window power shell? para hacer u proyecto
+
+
+Para abrir (cambiar a) una carpeta en Windows PowerShell, usas el comando cd (change directory):
+
+Para ver las carpetas en tu ubicación actual:
+powershell
+
+Copy
+ls
+o
+
+powershell
+
+Copy
+dir
+Para cambiar a una carpeta específica:
+powershell
+
+Copy
+cd NombreDeLaCarpeta
+Para ir a tu carpeta de documentos:
+powershell
+
+Copy
+cd Documents
+Para ir al escritorio:
+powershell
+
+Copy
+cd Desktop
+Para ir a una ruta específica completa:
+powershell
+
+Copy
+cd C:\Users\TuNombre\Documentos
+Para volver un nivel atrás:
+powershell
+
+Copy
+cd ..
+Consejos adicionales:
+
+Puedes usar la tecla Tab para autocompletar nombres de carpetas
+Escribe el inicio del nombre y presiona Tab
+Si hay espacios en el nombre, pon el nombre entre comillas Ejemplo: cd "Mi Carpeta de Proyectos"
+¿Quieres que te guíe para ubicar o crear una carpeta para tu proyecto de React?
+
+Copy
+Retry
+
+
+M
+voy hacer un proyecto que lo voy a guardar en una carpeta llamada react JS pues quiero abrir esa carpeta que no hay nada dentro de windows power shell , osea dentro de windows power shell acceder a esa carpeta llamada react JS
+
+
+Perfecto. Primero, asegúrate de haber creado la carpeta "React JS" en tu sistema de archivos (usando el Explorador de Windows). Luego, en PowerShell, puedes acceder a ella de varias formas:
+
+Si la carpeta está en tu carpeta de usuario (lo más común):
+powershell
+
+Copy
+cd "React JS"
+Si no sabes exactamente dónde está, primero ubícala:
+powershell
+
+Copy
+cd Documents  # o cd Desktop, dependiendo donde la hayas creado
+cd "React JS"
+Si conoces la ruta completa:
+powershell
+
+Copy
+cd C:\Users\TuNombre\Documents\"React JS"
+Para confirmar que estás en la carpeta correcta:
+powershell
+
+Copy
+pwd  # muestra la ruta actual
+ls   # lista los contenidos de la carpeta
+Si la carpeta está vacía, ls no mostrará nada, lo cual es normal.
+
+Una vez dentro de la carpeta "React JS", puedes crear tu proyecto de React:
+
+powershell
+
+Copy
+npx create-react-app mi-primer-proyecto

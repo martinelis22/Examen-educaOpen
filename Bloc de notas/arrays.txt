@@ -1,0 +1,36 @@
+arrays 
+
+loops
+
+java script
+
+fors anidados
+
+condicionales
+
+valor que tiene el indice en el for
+
+
+
+ <li>
+          <img
+            src="https://avatar.iran.liara.run/public/boy?username=Pollika"
+            alt="Pollika"
+          />
+          <p>Pollika</p>
+        </li>
+
+ <script>
+        function afficherAvis(event) {
+          event.preventDefault();
+          const nom = document.getElementById("nom").value;
+          const note = document.getElementById("choix").value;
+          alert(
+            `Merci ${nom} pour votre avis. Vous avez noté cette recette ${note} étoile(s).`
+          );
+        }
+  
+        document
+          .getElementById("monFormulaire")
+          .addEventListener("submit", afficherAvis);
+    </main>

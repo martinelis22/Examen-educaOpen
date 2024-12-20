@@ -1,0 +1,6 @@
+Caso práctico
+Tras haber avanzado en este primer tema de formación, vamos a realizar una actividad para poner en práctica los contenidos adquiridos:
+
+En este caso práctico, desarrollarás una serie de pequeños proyectos que te permitirán aplicar los conceptos aprendidos en el curso de jQuery y jQuery Mobile en situaciones del mundo real, sin necesidad de crear una aplicación o una página web completa. En primer lugar, deberás crear un script jQuery que maneje diferentes eventos del DOM, como clics de botones, cambios de estado de formularios o desplazamientos de páginas. A continuación, utiliza jQuery para modificar dinámicamente la estructura y el contenido del DOM, y crea scripts que utilicen las funciones de animación de jQuery para agregar efectos visuales a los elementos del DOM. Por último, crea un script jQuery que valide los campos de un formulario antes de enviarlos y otro que utilice jQuery para realizar una solicitud AJAX a un servidor y mostrar la respuesta en la página web.
+
+Una vez finalizada la tarea, envíala al tutor/a responsable de la formación para que pueda ser evaluada.

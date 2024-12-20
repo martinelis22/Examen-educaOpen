@@ -1,0 +1,24 @@
+vocabulario programacion 
+
+breed = raza
+campo (field)
+chek guess = comprobar adivinar
+else = no ( falso)
+disabled = desactivada/o
+document.querySelector = selector de consultas
+field = campo
+fieldset = conjunto de campos
+focus = enfocar
+guess  = adivinar
+guess field = campo de adivinanzas
+guesses = conjeturas
+height = altura
+random = aleatorio
+if = si (verdadero)
+input = aporte
+label = etiqueta
+nest = nido
+prompt = inmediato
+query = consulta
+submit = entregar
+width = ancho
